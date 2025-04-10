@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Important Test Notification</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #ffe6e6, #ffcccc);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+            border: 3px solid #ff4444;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .urgent {
+            color: #ff4444;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            margin-bottom: 15px;
+        }
+
+        .content {
+            line-height: 1.8;
+            color: #333;
+        }
+
+        .highlight {
+            color: #ff4444;
+            font-weight: bold;
+        }
+
+        .syllabus-section {
+            background: #fff5f5;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 15px 0;
+        }
+
+        .columns {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .video-box {
+            background: #e6f3ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+
+        .contact-box {
+            background: #e6ffe6;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .signature {
+            text-align: right;
+            margin-top: 20px;
+            font-style: italic;
+            color: #666;
+        }
+
+        li {
+            margin-left: 20px;
+            padding: 3px 0;
+        }
+
+        .hover-effect:hover {
+            transform: scale(1.02);
+            transition: 0.3s;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="urgent">!! IMPORTANT !!</div>
+            <h1>Test Schedule Notification</h1>
+        </div>
+
+        <div class="content">
+            <p>Dear Student,</p>
+            <p>This is to inform you that your <span class="highlight">Test is scheduled on 14-04-25</span></p>
+            
+            <div class="highlight hover-effect" style="margin: 15px 0;">
+                Roll No.: 23107<br>
+                Reporting Time: 04:50 PM - (Main Bed Room)<br>
+                Test Timing: 05:00 PM - 06:00 PM<br>
+                Test Venue: Railway quarter no E/72/2 Motibagh Near Kalamandir
+            </div>
+
+            <div class="syllabus-section hover-effect">
+                <h3>Syllabus:</h3>
+                <div class="columns">
+                    <div>
+                        <ul>
+                            <li>Basic Mathematics Tools till Slope of Curve</li>
+                            <li>T-Ratios + Formulas</li>
+                            <li>Sine rule & Lamia theorem</li>
+                            <li>Slope of curve + Parabola, Hyperbola</li>
+                            <li>Units and Measurements</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Vernier Callipers</li>
+                            <li>Scalars & Vectors Operations</li>
+                            <li>Error Analysis</li>
+                            <li>Formula Derivations</li>
+                            <li>NSEJS Level Problems</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-box hover-effect">
+                <strong>Recommended Video:</strong> Alakh Pandey YouTube Channel
+            </div>
+
+            <div class="highlight hover-effect">
+                <strong>Paper Pattern:</strong><br>
+                50 Questions · 50 Minutes (SCQ + MCQ)
+            </div>
+
+            <div class="contact-box hover-effect">
+                For queries: <a href="tel:7972410890" style="text-decoration:none; color:#009933;">📞 Call 7972410890</a>
+            </div>
+
+            <div class="signature">
+                Best Regards,<br>
+                <strong>WPO AYUSH</strong>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
